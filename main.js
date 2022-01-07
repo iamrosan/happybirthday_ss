@@ -2,7 +2,10 @@ let mgcone = document.getElementById('magicone');
 let divbox = document.getElementById('disBox');
 let imgBox = document.querySelector('.img-container');
 let hfrtag = document.getElementsByTagName('h2');
-let sc = setTimeout(displayBox,3000);
+let loader = document.getElementById('loading');
+
+
+let sc = setTimeout(displayBox,8000);
 
 
 function displayBox(){
@@ -17,4 +20,9 @@ function display(){
     setTimeout(function(){
         hfrtag[0].style.display='inline';
     },2000);
+}
+
+
+function loadFun(){
+    loader.style.display='none';
 }
