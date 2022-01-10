@@ -5,7 +5,7 @@ let hfrtag = document.getElementsByTagName('h2');
 let loader = document.getElementById('loading');
 
 
-let sc = setTimeout(displayBox,5000);
+let sc = setTimeout(displayBox,3000);
 
 
 function displayBox(){
